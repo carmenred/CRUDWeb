@@ -11,5 +11,4 @@
         <servlet-name>ListAlumnos</servlet-name>
         <url-pattern>/ListAlumnos</url-pattern>
     </servlet-mapping>
-
 </web-app>

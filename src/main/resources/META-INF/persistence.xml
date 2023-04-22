@@ -10,7 +10,7 @@
         <class>com.car.crudweb.entities.Modulos</class>
         <class>com.car.crudweb.entities.Profesores</class>
         <properties>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/notaslinkia"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/notaslinkia2"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
             <property name="jakarta.persistence.jdbc.password" value=""/>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
@@ -18,6 +18,7 @@
             <property name="jakarta.persistence.schema-generation.database.action" value="none"/>
             <property name="jakarta.persistence.schema-generation.scripts.action" value="none"/>
             <property name="hibernate.default_schema" value="notaslinkia2"/>
+            <property name="hibernate.show_sql" value="true" />
         </properties>
     </persistence-unit>
 </persistence>
